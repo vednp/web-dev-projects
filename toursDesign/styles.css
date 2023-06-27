@@ -1,0 +1,88 @@
+a {
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url("/ocean.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#slogan {
+    width: 700px;
+    background-color: rgba(51, 47, 47, 0.8);
+    color: aliceblue;
+
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+
+    box-shadow: 3px 3px 8px black;
+    position: relative;
+    top: 20%;
+}
+
+#slogan h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#slogan p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+#slogan a {
+    padding: 10px;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 8px ;
+    color: black;
+}
+
+#hero p{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+
+}
+
+#hero a:hover{
+    color: black;
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.destination img{
+    width: 400px;
+    height: 250px;
+    box-shadow: 2px 2px 8px black;
+}
+
+#destinations{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    
+}
+
+#highlights h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+}
+
+#highlights{
+    padding: 20px;
+}
