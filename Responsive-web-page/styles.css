@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(195, 160, 160);
+    margin: 0;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    position: relative;
+}
+
+nav h1{
+    padding: 1.2rem 1.5rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li{
+    padding: 1.2rem 1.6rem;
+}
+
+.ham-btn{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    display: none;
+    
+    
+}
+
+.ham-btn span{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+
+#side-draw{
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#side-draw ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    margin-top: 3rem;
+}
+
+#side-draw li{
+    padding: 1.2rem 1.6rem;
+    font-size: larger;
+}
+
+.close-btn{
+    padding: 0.7rem 1rem;
+    font-size: 2rem;
+}
+
+
+#side-draw:target{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(195, 160, 160);
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 6rem;
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    justify-items: center;
+   
+    
+
+}
+#items img{
+    height: 15rem;
+    width: 15rem;
+    object-fit: fill;
+}
+
+ul .item{
+    background-color: rgb(43, 74, 101);
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    color: rgb(195, 160, 160);
+    box-shadow: 2px 2px 8px black;
+}
+
+@media (max-width: 768px){
+    #items{
+        grid-template-columns: repeat(1,1fr );
+        
+    }
+    ul .item{
+        margin-bottom: 2rem;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+    .ham-btn{
+        display: flex;
+        
+    }
+    
+}
