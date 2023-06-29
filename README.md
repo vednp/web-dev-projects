@@ -1,2 +1,2 @@
 # web-dev-projects
-Repo for small web development releted projects
+Repository for small web development releted projects made while learning
